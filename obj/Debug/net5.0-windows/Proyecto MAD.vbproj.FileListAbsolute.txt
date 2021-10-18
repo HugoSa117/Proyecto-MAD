@@ -1,0 +1,19 @@
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\bin\Debug\net5.0-windows\Proyecto MAD.exe
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\bin\Debug\net5.0-windows\Proyecto MAD.deps.json
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\bin\Debug\net5.0-windows\Proyecto MAD.runtimeconfig.json
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\bin\Debug\net5.0-windows\Proyecto MAD.runtimeconfig.dev.json
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\bin\Debug\net5.0-windows\Proyecto MAD.dll
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\bin\Debug\net5.0-windows\ref\Proyecto MAD.dll
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\bin\Debug\net5.0-windows\Proyecto MAD.pdb
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.vbproj.AssemblyReference.cache
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Form1.resources
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Resources.resources
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.vbproj.GenerateResource.cache
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.AssemblyInfoInputs.cache
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.AssemblyInfo.vb
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.vbproj.CoreCompileInputs.cache
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.dll
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\ref\Proyecto MAD.dll
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.pdb
+C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto MAD\obj\Debug\net5.0-windows\Proyecto MAD.genruntimeconfig.cache
