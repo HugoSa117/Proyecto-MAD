@@ -124,4 +124,10 @@
   <data name="Minimize_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minimize_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo_size" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_size1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d64b8b1f5cd643049149ad4ccd12751e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d64b8b1f5cd643049149ad4ccd12751e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

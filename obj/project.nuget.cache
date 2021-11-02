@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pekZxF74oedXvjppdbzAx+AwqiamiyFSc8Rb1Pf9+oXex5rWUHiYqAiwqoT4/pilGd+TA1fioBR4N8zO/jH6Fw==",
+  "dgSpecHash": "nVq384FQ/O3QlFi1vEH2BxV6KbEJblvCGM0SVRLb17VOQJaSBvH3Ddg8UgcEYxSMVvKs+QaV1bNeEDmoktj+nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HASA2\\Desktop\\FCFM\\7° Semestre\\Modelos de Administracion de Datos\\Proyecto MAD\\Proyecto MAD.vbproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\HASA2\\Desktop\\FCFM\\7° Semestre\\Modelos de Administracion de Datos\\Proyecto-MAD\\Proyecto MAD.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HASA2\\.nuget\\packages\\fontawesome.sharp\\5.15.3\\fontawesome.sharp.5.15.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -63,10 +63,12 @@ Public Class Login
 
         ' Esta llamada es exigida por el diseñador.
         InitializeComponent()
-
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
         CustomizeComponents()
     End Sub
 
-
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dashboard.Show()
+        Me.Hide()
+    End Sub
 End Class

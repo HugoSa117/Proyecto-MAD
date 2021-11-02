@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Login
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Login
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.TittleBar = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -33,8 +33,6 @@ Partial Class Login
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.RadioBTN_Empleado = New System.Windows.Forms.RadioButton()
-        Me.RadioBTN_Cliente = New System.Windows.Forms.RadioButton()
         Me.TittleBar.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -166,40 +164,12 @@ Partial Class Login
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "¿Olvidé mi contraseña?"
         '
-        'RadioBTN_Empleado
-        '
-        Me.RadioBTN_Empleado.AutoSize = True
-        Me.RadioBTN_Empleado.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioBTN_Empleado.ForeColor = System.Drawing.Color.Silver
-        Me.RadioBTN_Empleado.Location = New System.Drawing.Point(46, 188)
-        Me.RadioBTN_Empleado.Name = "RadioBTN_Empleado"
-        Me.RadioBTN_Empleado.Size = New System.Drawing.Size(93, 21)
-        Me.RadioBTN_Empleado.TabIndex = 9
-        Me.RadioBTN_Empleado.TabStop = True
-        Me.RadioBTN_Empleado.Text = "Empleado"
-        Me.RadioBTN_Empleado.UseVisualStyleBackColor = True
-        '
-        'RadioBTN_Cliente
-        '
-        Me.RadioBTN_Cliente.AutoSize = True
-        Me.RadioBTN_Cliente.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioBTN_Cliente.ForeColor = System.Drawing.Color.Silver
-        Me.RadioBTN_Cliente.Location = New System.Drawing.Point(145, 188)
-        Me.RadioBTN_Cliente.Name = "RadioBTN_Cliente"
-        Me.RadioBTN_Cliente.Size = New System.Drawing.Size(72, 21)
-        Me.RadioBTN_Cliente.TabIndex = 10
-        Me.RadioBTN_Cliente.TabStop = True
-        Me.RadioBTN_Cliente.Text = "Cliente"
-        Me.RadioBTN_Cliente.UseVisualStyleBackColor = True
-        '
-        'Form1
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(104, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(425, 635)
-        Me.Controls.Add(Me.RadioBTN_Cliente)
-        Me.Controls.Add(Me.RadioBTN_Empleado)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.CheckBox1)
@@ -210,7 +180,7 @@ Partial Class Login
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.TittleBar)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.Opacity = 0.95R
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
@@ -234,6 +204,4 @@ Partial Class Login
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Button1 As Button
     Friend WithEvents LinkLabel1 As LinkLabel
-    Friend WithEvents RadioBTN_Empleado As RadioButton
-    Friend WithEvents RadioBTN_Cliente As RadioButton
 End Class
