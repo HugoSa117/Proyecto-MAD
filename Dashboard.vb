@@ -1,4 +1,5 @@
-﻿Imports FontAwesome.Sharp
+﻿Imports System.Runtime.InteropServices
+Imports FontAwesome.Sharp
 
 Public Class Dashboard
 
@@ -16,6 +17,10 @@ Public Class Dashboard
         leftBorderBtn = New Panel()
         leftBorderBtn.Size = New Size(7, 60)
         PanelMenu.Controls.Add(leftBorderBtn)
+        Me.Text = String.Empty
+        Me.ControlBox = False
+        Me.DoubleBuffered = True
+        Me.MaximizedBounds = Screen.PrimaryScreen.WorkingArea
     End Sub
 
     Private Sub ActivateButton(senderBtn As Object, customColor As Color)
@@ -66,13 +71,7 @@ Public Class Dashboard
         PanelDesktop.Tag = childForm
         childForm.BringToFront()
         childForm.Show()
-
         lblFormTittle.Text = currentBtn.Text
-
-
-
-
-
     End Sub
 
 
@@ -98,7 +97,6 @@ Public Class Dashboard
     Private Sub btnRegistrarSucur_Click(sender As Object, e As EventArgs) Handles btnRegistrarSucur.Click
         ActivateButton(sender, RGBColors.color4)
         OpenChildForm(New Form_R_Sucursal)
-
     End Sub
 
 

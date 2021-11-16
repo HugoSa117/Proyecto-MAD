@@ -43,3 +43,28 @@ C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proy
 C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Form_R_Clientes.resources
 C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Form_R_Producto.resources
 C:\Users\HASA2\Desktop\FCFM\7° Semestre\Modelos de Administracion de Datos\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Form_R_Sucursal.resources
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\bin\Debug\net5.0-windows\Proyecto MAD.exe
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\bin\Debug\net5.0-windows\Proyecto MAD.deps.json
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\bin\Debug\net5.0-windows\Proyecto MAD.runtimeconfig.json
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\bin\Debug\net5.0-windows\Proyecto MAD.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\bin\Debug\net5.0-windows\Proyecto MAD.dll
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\bin\Debug\net5.0-windows\ref\Proyecto MAD.dll
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\bin\Debug\net5.0-windows\Proyecto MAD.pdb
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\bin\Debug\net5.0-windows\FontAwesome.Sharp.dll
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Dashboard.resources
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Form_R_Clientes.resources
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Form_R_Empleados.resources
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Form_R_Producto.resources
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Form_R_Sucursal.resources
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Login.resources
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto_MAD.Resources.resources
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.vbproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.AssemblyInfo.vb
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.dll
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\ref\Proyecto MAD.dll
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.pdb
+C:\Users\Administrator\Documents\GitHub\Proyecto-MAD\obj\Debug\net5.0-windows\Proyecto MAD.genruntimeconfig.cache
