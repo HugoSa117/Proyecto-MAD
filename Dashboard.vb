@@ -101,5 +101,15 @@ Public Class Dashboard
 
     End Sub
 
+    Private Sub PanelDesktop_Paint(sender As Object, e As PaintEventArgs) Handles PanelDesktop.Paint
 
+    End Sub
+
+    Private Sub PanelLogo_Paint(sender As Object, e As PaintEventArgs) Handles PanelLogo.Paint
+
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

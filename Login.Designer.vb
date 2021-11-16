@@ -129,7 +129,7 @@ Partial Class Login
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.CheckBox1.ForeColor = System.Drawing.Color.Silver
-        Me.CheckBox1.Location = New System.Drawing.Point(46, 345)
+        Me.CheckBox1.Location = New System.Drawing.Point(46, 349)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(110, 21)
         Me.CheckBox1.TabIndex = 6
