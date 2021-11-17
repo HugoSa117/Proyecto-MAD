@@ -23,7 +23,6 @@ Partial Class Form_R_Producto
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -33,18 +32,26 @@ Partial Class Form_R_Producto
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.DataGridView3 = New System.Windows.Forms.DataGridView()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -57,13 +64,6 @@ Partial Class Form_R_Producto
         Me.Label2.Size = New System.Drawing.Size(198, 19)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Codigo del Producto: "
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(6, 117)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(297, 26)
-        Me.TextBox2.TabIndex = 6
         '
         'Label1
         '
@@ -137,11 +137,16 @@ Partial Class Form_R_Producto
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.TextBox6)
+        Me.GroupBox1.Controls.Add(Me.Label6)
+        Me.GroupBox1.Controls.Add(Me.DataGridView3)
+        Me.GroupBox1.Controls.Add(Me.DataGridView2)
         Me.GroupBox1.Controls.Add(Me.TextBox7)
         Me.GroupBox1.Controls.Add(Me.Label11)
         Me.GroupBox1.Controls.Add(Me.Button2)
         Me.GroupBox1.Controls.Add(Me.Button1)
-        Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TextBox5)
         Me.GroupBox1.Controls.Add(Me.TextBox4)
@@ -156,26 +161,32 @@ Partial Class Form_R_Producto
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(560, 466)
+        Me.GroupBox1.Size = New System.Drawing.Size(560, 473)
         Me.GroupBox1.TabIndex = 17
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos del Producto"
         '
-        'Label6
+        'TextBox7
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label6.Location = New System.Drawing.Point(328, 93)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(54, 19)
-        Me.Label6.TabIndex = 17
-        Me.Label6.Text = "Foto:"
+        Me.TextBox7.Location = New System.Drawing.Point(328, 117)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(224, 26)
+        Me.TextBox7.TabIndex = 27
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(328, 95)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(72, 19)
+        Me.Label11.TabIndex = 26
+        Me.Label11.Text = "Indice:"
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(111, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(346, 354)
+        Me.Button2.Location = New System.Drawing.Point(443, 426)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(109, 41)
         Me.Button2.TabIndex = 25
@@ -186,7 +197,7 @@ Partial Class Form_R_Producto
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(152, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(346, 297)
+        Me.Button1.Location = New System.Drawing.Point(318, 426)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(109, 41)
         Me.Button1.TabIndex = 24
@@ -203,25 +214,16 @@ Partial Class Form_R_Producto
         Me.GroupBox2.ForeColor = System.Drawing.Color.White
         Me.GroupBox2.Location = New System.Drawing.Point(581, 12)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(359, 466)
+        Me.GroupBox2.Size = New System.Drawing.Size(359, 473)
         Me.GroupBox2.TabIndex = 18
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Registros:"
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(6, 25)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowTemplate.Height = 25
-        Me.DataGridView1.Size = New System.Drawing.Size(347, 379)
-        Me.DataGridView1.TabIndex = 0
         '
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(12, Byte), Integer), CType(CType(12, Byte), Integer))
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(234, 410)
+        Me.Button5.Location = New System.Drawing.Point(235, 426)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(101, 41)
         Me.Button5.TabIndex = 29
@@ -232,7 +234,7 @@ Partial Class Form_R_Producto
         '
         Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(251, Byte), Integer))
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(128, 410)
+        Me.Button4.Location = New System.Drawing.Point(128, 426)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(101, 41)
         Me.Button4.TabIndex = 28
@@ -243,28 +245,80 @@ Partial Class Form_R_Producto
         '
         Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(12, Byte), Integer))
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(21, 410)
+        Me.Button3.Location = New System.Drawing.Point(21, 426)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(101, 41)
         Me.Button3.TabIndex = 27
         Me.Button3.Text = "Modificar"
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'TextBox7
+        'TextBox2
         '
-        Me.TextBox7.Location = New System.Drawing.Point(328, 55)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(206, 26)
-        Me.TextBox7.TabIndex = 27
+        Me.TextBox2.Location = New System.Drawing.Point(6, 117)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(297, 26)
+        Me.TextBox2.TabIndex = 6
         '
-        'Label11
+        'TextBox6
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(328, 33)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(72, 19)
-        Me.Label11.TabIndex = 26
-        Me.Label11.Text = "Indice:"
+        Me.TextBox6.Location = New System.Drawing.Point(328, 55)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(224, 26)
+        Me.TextBox6.TabIndex = 29
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(328, 33)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(72, 19)
+        Me.Label6.TabIndex = 28
+        Me.Label6.Text = "Precio:"
+        '
+        'DataGridView2
+        '
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Location = New System.Drawing.Point(328, 178)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.RowTemplate.Height = 25
+        Me.DataGridView2.Size = New System.Drawing.Size(224, 104)
+        Me.DataGridView2.TabIndex = 30
+        '
+        'DataGridView3
+        '
+        Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView3.Location = New System.Drawing.Point(328, 313)
+        Me.DataGridView3.Name = "DataGridView3"
+        Me.DataGridView3.RowTemplate.Height = 25
+        Me.DataGridView3.Size = New System.Drawing.Size(224, 104)
+        Me.DataGridView3.TabIndex = 31
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(328, 155)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(99, 19)
+        Me.Label7.TabIndex = 32
+        Me.Label7.Text = "Categoria:"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(328, 291)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(90, 19)
+        Me.Label8.TabIndex = 33
+        Me.Label8.Text = "Sucursal:"
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(6, 25)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowTemplate.Height = 25
+        Me.DataGridView1.Size = New System.Drawing.Size(347, 379)
+        Me.DataGridView1.TabIndex = 0
         '
         'Form_R_Producto
         '
@@ -279,13 +333,14 @@ Partial Class Form_R_Producto
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
@@ -295,14 +350,20 @@ Partial Class Form_R_Producto
     Friend WithEvents Label5 As Label
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Label6 As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button5 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label11 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents DataGridView3 As DataGridView
+    Friend WithEvents DataGridView2 As DataGridView
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents DataGridView1 As DataGridView
 End Class
